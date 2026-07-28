@@ -1,6 +1,6 @@
 class Solution {
     public int reverse(int x) {
-        long rem=0;
+        int rem=0;
         long res=0;
         while (x!=0){
             rem=x%10;
