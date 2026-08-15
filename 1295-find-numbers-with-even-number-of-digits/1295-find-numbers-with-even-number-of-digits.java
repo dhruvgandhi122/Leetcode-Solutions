@@ -17,9 +17,12 @@ class Solution {
             n=n*-1;
         }                              // instead of applying these loops we can also use a simple
         while(n>0){                    //method which gives the no. of digits.
-                                       //static int digits(int num){
-            n=n/10;                    //    return (int)(Math.log10(num))+1;
-            digits++;                  //}
+            n=n/10;                    // static int digits(int num){
+            digits++;                  //    if(n<0){
+                                       //        n=n*-1;
+                                       //    }  
+                                       //    return (int)(Math.log10(num))+1;
+                                       // }
         }
         if(digits%2==0){
             return true;
