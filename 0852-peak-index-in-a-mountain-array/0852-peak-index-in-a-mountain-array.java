@@ -13,6 +13,6 @@ class Solution {
             }
             
         }
-        return end;
+        return end;         //here beg==end so the remaining element will be the peak element
     }
 }
