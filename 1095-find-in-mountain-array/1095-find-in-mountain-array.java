@@ -33,7 +33,7 @@ class Solution {
         while (beg < end) {
             int mid = beg + (end - beg) / 2;
             if (arr.get(mid) > arr.get(mid + 1)) {
-                end = mid; // Mid could be the peak, so don't subtract 1
+                end = mid; 
             } else {
                 beg = mid + 1;
             }
