@@ -1,3 +1,4 @@
+import java.lang.Math;
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int max=0;
@@ -6,9 +7,7 @@ class Solution {
             if(nums[i]==1){
                 count+=1;
             }
-            if(max<count){
-                    max=count;
-                }
+            max=Math.max(max,count);
             if(nums[i]==0){
                 count =0;
             }
