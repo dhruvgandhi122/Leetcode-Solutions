@@ -24,8 +24,6 @@ class Solution {
         }
         return false;
     }
-
-
     public int searchRow(int[][] matrix,int target){
         int start=0;
         int end=matrix.length-1;
