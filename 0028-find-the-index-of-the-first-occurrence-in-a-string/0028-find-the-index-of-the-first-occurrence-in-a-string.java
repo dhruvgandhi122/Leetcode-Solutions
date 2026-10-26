@@ -37,3 +37,11 @@ class Solution {
 //         return -1;
 //     }
 // }
+//
+
+//other solution using indexOf() method
+// class Solution {
+//     public int strStr(String haystack, String needle) {
+//         return haystack.indexOf(needle);
+//     }
+// }
