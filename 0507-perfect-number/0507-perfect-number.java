@@ -6,6 +6,9 @@ class Solution {
             if(num%i==0){
                 result+= i;
             }
+            if(result> num){
+                return false;
+            }
         }
         if(result == num){
             return true;
